@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="barang2110024" msprop:Generator_TableClassName="barang2110024DataTable" msprop:Generator_TableVarName="tablebarang2110024" msprop:Generator_TablePropName="barang2110024" msprop:Generator_RowDeletingName="barang2110024RowDeleting" msprop:Generator_RowChangingName="barang2110024RowChanging" msprop:Generator_RowEvHandlerName="barang2110024RowChangeEventHandler" msprop:Generator_RowDeletedName="barang2110024RowDeleted" msprop:Generator_UserTableName="barang2110024" msprop:Generator_RowChangedName="barang2110024RowChanged" msprop:Generator_RowEvArgName="barang2110024RowChangeEvent" msprop:Generator_RowClassName="barang2110024Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idbarang2110024" msprop:Generator_ColumnVarNameInTable="columnidbarang2110024" msprop:Generator_ColumnPropNameInRow="idbarang2110024" msprop:Generator_ColumnPropNameInTable="idbarang2110024Column" msprop:Generator_UserColumnName="idbarang2110024" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namabarang2110024" msprop:Generator_ColumnVarNameInTable="columnnamabarang2110024" msprop:Generator_ColumnPropNameInRow="namabarang2110024" msprop:Generator_ColumnPropNameInTable="namabarang2110024Column" msprop:Generator_UserColumnName="namabarang2110024" type="xs:string" minOccurs="0" />
+              <xs:element name="satuan2110024" msprop:Generator_ColumnVarNameInTable="columnsatuan2110024" msprop:Generator_ColumnPropNameInRow="satuan2110024" msprop:Generator_ColumnPropNameInTable="satuan2110024Column" msprop:Generator_UserColumnName="satuan2110024" type="xs:string" minOccurs="0" />
+              <xs:element name="hargabeli2110024" msprop:Generator_ColumnVarNameInTable="columnhargabeli2110024" msprop:Generator_ColumnPropNameInRow="hargabeli2110024" msprop:Generator_ColumnPropNameInTable="hargabeli2110024Column" msprop:Generator_UserColumnName="hargabeli2110024" type="xs:double" minOccurs="0" />
+              <xs:element name="hargajual2110024" msprop:Generator_ColumnVarNameInTable="columnhargajual2110024" msprop:Generator_ColumnPropNameInRow="hargajual2110024" msprop:Generator_ColumnPropNameInTable="hargajual2110024Column" msprop:Generator_UserColumnName="hargajual2110024" type="xs:double" minOccurs="0" />
+              <xs:element name="stok2110024" msprop:Generator_ColumnVarNameInTable="columnstok2110024" msprop:Generator_ColumnPropNameInRow="stok2110024" msprop:Generator_ColumnPropNameInTable="stok2110024Column" msprop:Generator_UserColumnName="stok2110024" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="penjualan2110024" msprop:Generator_TableClassName="penjualan2110024DataTable" msprop:Generator_TableVarName="tablepenjualan2110024" msprop:Generator_TablePropName="penjualan2110024" msprop:Generator_RowDeletingName="penjualan2110024RowDeleting" msprop:Generator_RowChangingName="penjualan2110024RowChanging" msprop:Generator_RowEvHandlerName="penjualan2110024RowChangeEventHandler" msprop:Generator_RowDeletedName="penjualan2110024RowDeleted" msprop:Generator_UserTableName="penjualan2110024" msprop:Generator_RowChangedName="penjualan2110024RowChanged" msprop:Generator_RowEvArgName="penjualan2110024RowChangeEvent" msprop:Generator_RowClassName="penjualan2110024Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idjual2110024" msprop:Generator_ColumnVarNameInTable="columnidjual2110024" msprop:Generator_ColumnPropNameInRow="idjual2110024" msprop:Generator_ColumnPropNameInTable="idjual2110024Column" msprop:Generator_UserColumnName="idjual2110024" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tgl2110024" msprop:Generator_ColumnVarNameInTable="columntgl2110024" msprop:Generator_ColumnPropNameInRow="tgl2110024" msprop:Generator_ColumnPropNameInTable="tgl2110024Column" msprop:Generator_UserColumnName="tgl2110024" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="jmlitem2110024" msprop:Generator_ColumnVarNameInTable="columnjmlitem2110024" msprop:Generator_ColumnPropNameInRow="jmlitem2110024" msprop:Generator_ColumnPropNameInTable="jmlitem2110024Column" msprop:Generator_UserColumnName="jmlitem2110024" type="xs:short" minOccurs="0" />
+              <xs:element name="total2110024" msprop:Generator_ColumnVarNameInTable="columntotal2110024" msprop:Generator_ColumnPropNameInRow="total2110024" msprop:Generator_ColumnPropNameInTable="total2110024Column" msprop:Generator_UserColumnName="total2110024" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="faktur2110024" msprop:Generator_TableClassName="faktur2110024DataTable" msprop:Generator_TableVarName="tablefaktur2110024" msprop:Generator_TablePropName="faktur2110024" msprop:Generator_RowDeletingName="faktur2110024RowDeleting" msprop:Generator_RowChangingName="faktur2110024RowChanging" msprop:Generator_RowEvHandlerName="faktur2110024RowChangeEventHandler" msprop:Generator_RowDeletedName="faktur2110024RowDeleted" msprop:Generator_UserTableName="faktur2110024" msprop:Generator_RowChangedName="faktur2110024RowChanged" msprop:Generator_RowEvArgName="faktur2110024RowChangeEvent" msprop:Generator_RowClassName="faktur2110024Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idjual2110024" msprop:Generator_ColumnVarNameInTable="columnidjual2110024" msprop:Generator_ColumnPropNameInRow="idjual2110024" msprop:Generator_ColumnPropNameInTable="idjual2110024Column" msprop:Generator_UserColumnName="idjual2110024" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tgl2110024" msprop:Generator_ColumnVarNameInTable="columntgl2110024" msprop:Generator_ColumnPropNameInRow="tgl2110024" msprop:Generator_ColumnPropNameInTable="tgl2110024Column" msprop:Generator_UserColumnName="tgl2110024" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="username2110024" msprop:Generator_ColumnVarNameInTable="columnusername2110024" msprop:Generator_ColumnPropNameInRow="username2110024" msprop:Generator_ColumnPropNameInTable="username2110024Column" msprop:Generator_UserColumnName="username2110024" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idbarang2110024" msprop:Generator_ColumnVarNameInTable="columnidbarang2110024" msprop:Generator_ColumnPropNameInRow="idbarang2110024" msprop:Generator_ColumnPropNameInTable="idbarang2110024Column" msprop:Generator_UserColumnName="idbarang2110024" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namabarang2110024" msprop:Generator_ColumnVarNameInTable="columnnamabarang2110024" msprop:Generator_ColumnPropNameInRow="namabarang2110024" msprop:Generator_ColumnPropNameInTable="namabarang2110024Column" msprop:Generator_UserColumnName="namabarang2110024" type="xs:string" minOccurs="0" />
+              <xs:element name="satuan2110024" msprop:Generator_ColumnVarNameInTable="columnsatuan2110024" msprop:Generator_ColumnPropNameInRow="satuan2110024" msprop:Generator_ColumnPropNameInTable="satuan2110024Column" msprop:Generator_UserColumnName="satuan2110024" type="xs:string" minOccurs="0" />
+              <xs:element name="harga2110024" msprop:Generator_ColumnVarNameInTable="columnharga2110024" msprop:Generator_ColumnPropNameInRow="harga2110024" msprop:Generator_ColumnPropNameInTable="harga2110024Column" msprop:Generator_UserColumnName="harga2110024" type="xs:double" minOccurs="0" />
+              <xs:element name="qty2110024" msprop:Generator_ColumnVarNameInTable="columnqty2110024" msprop:Generator_ColumnPropNameInRow="qty2110024" msprop:Generator_ColumnPropNameInTable="qty2110024Column" msprop:Generator_UserColumnName="qty2110024" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
